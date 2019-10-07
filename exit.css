@@ -86,7 +86,7 @@ a.ticketing:hover{
         flex-direction: column;
         background-color: white;
     }
-    
+
     a.ticketing:hover{
         background-color: rgb(255, 0, 0);
         color : black;

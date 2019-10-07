@@ -44,8 +44,58 @@ a.ticketing{
 
 }
 
-@media only screen and (max-device-width : 768px) { 
-}
 
-@media only screen and (max-device-width : 414px) {
-}
+@media only screen and (max-device-width : 768px) { 
+
+    div.movie_parasite{
+        display: flexbox;
+        flex-direction: column;
+    }
+
+    div.title{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4.5rem;
+        text-shadow: 0 0 0.1rem black;
+    }
+    div.content{
+        color: black;
+        border: 0.2rem solid black;
+        background-color: white;
+    }
+    
+    a.ticketing:hover{
+        background-color: rgb(251, 255, 0);
+        color : black;
+    }
+    
+    
+    }
+    
+    @media only screen and (max-device-width : 414px) {
+
+        div.movie_parasite{
+            display: flexbox;
+            flex-direction: column;
+        }
+        div.title{
+            color: black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 4.5rem;
+            text-shadow: 0 0 0.1rem white;
+        }
+        div.content{
+            color: rgb(8, 93, 250);
+            border: 0.2rem solid black;
+            
+            background-color: white;
+        }
+    
+        a.ticketing:hover{
+            background-color: rgb(255, 0, 0);
+            color : black;
+        }
+    
+    }
