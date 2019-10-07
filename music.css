@@ -54,7 +54,6 @@ input.submit_button:hover{
     
     h1{
         color: rgb(245, 143, 206);
-        text-shadow: 0 0 1rem black;
         text-align: center;
         font-size: 3rem;
     }
