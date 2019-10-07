@@ -1,4 +1,4 @@
-@charset"utf-8";
+@charset "utf-8";
 
 /* html{
     color: black;
@@ -27,7 +27,7 @@ div.content {
     font-weight: bold;
     font-size: 1.5rem;
     color: salmon;
-    display: flexbox;
+    display: flex;
     padding: 0.5rem 1rem;
     background-color: whitesmoke;
 
@@ -58,7 +58,7 @@ div.title{
 div.content{
     color: black;
     border: 0.2rem solid black;
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     background-color: white;
 }
@@ -82,7 +82,7 @@ a.ticketing:hover{
     div.content{
         color: rgb(8, 93, 250);
         border: 0.2rem solid black;
-        display: flexbox;
+        display: flex;
         flex-direction: column;
         background-color: white;
     }

@@ -1,4 +1,4 @@
-@charset="utf-8";
+@charset "utf-8";
 
 body{
     background-color:whitesmoke;
@@ -10,20 +10,24 @@ h1{
     text-align: center;
 }
 
+div.music_research{
+    display: flex;
+    flex-direction: column;
+}
 
 div.content{
     text-align: center;
     font-size: 2rem;
     border: 0.3rem solid black;
     background-color: white;
-    display: inline-flexbox;
+    display: flex;
 }
 
 
 @media only screen and (max-device-width : 768px) { 
 
 div.music_research{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
 }
 
@@ -44,13 +48,13 @@ input.submit_button:hover{
 
 @media only screen and (max-device-width : 414px) {
     div.music_research{
-        display: flexbox;
+        display: flex;
         flex-direction: column;
     }
     
     h1{
         color: rgb(245, 143, 206);
-        text-shadow: 0 0 1rem solid black;
+        text-shadow: 0 0 1rem black;
         text-align: center;
         font-size: 3rem;
     }

@@ -1,4 +1,4 @@
-@charset"utf-8";
+@charset "utf-8";
 
 html{
     color: black;
@@ -25,7 +25,7 @@ div.content {
     font-weight: bold;
     font-size: 1.5rem;
     color: salmon;
-    display: flexbox;
+    display: flex;
     padding: 0.5rem 1rem;
     background-color: whitesmoke;
 
@@ -48,7 +48,7 @@ a.ticketing{
 @media only screen and (max-device-width : 768px) { 
 
     div.movie_parasite{
-        display: flexbox;
+        display: flex;
         flex-direction: column;
     }
 
@@ -76,7 +76,7 @@ a.ticketing{
     @media only screen and (max-device-width : 414px) {
 
         div.movie_parasite{
-            display: flexbox;
+            display: flex;
             flex-direction: column;
         }
         div.title{
