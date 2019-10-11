@@ -1,22 +1,20 @@
 body{
-    margin : 2rem 3rem;
+    margin : 3rem 1.5rem;
+    padding : 1rem;
 }
 
 #intro{
     border : 1rem solid black;
-    margin : 0rem;
+    margin : 0.1rem;
     padding : 2rem;
     display: flex;
     flex-direction: column;
 }
 
-
 div.title{
     font-size: 15rem;
     text-align: center;
     font-weight: bold;
-
-
 }
 
 div.content{
@@ -26,8 +24,15 @@ div.content{
 }
 
 
-
 @media only screen and (max-device-width : 768px){
+    #intro{
+        border : 1rem solid black;
+        margin : 2rem 1rem;
+        padding : 0.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
     div.title{
         font-size: 12rem;
         text-align: center;
@@ -37,25 +42,20 @@ div.content{
     div.content{
         font-size: 2rem;
         text-align: center;
-        
     }
     
-
 }
-
-
 
 
 @media only screen and (max-device-width : 414px){
  
-#intro{
-    border : 1rem solid black;
-    margin : 2rem 1rem;
-    padding : 0rem;
-    display: flex;
-    flex-direction: column;
-}
- 
+    #intro{
+        border : 1rem solid black;
+        margin : 2rem 1rem;
+        padding : 0.1rem;
+        display: flex;
+        flex-direction: column;
+    }
  
     div.title{
     font-size: 8rem;
