@@ -1,0 +1,74 @@
+body{
+    margin : 2rem 3rem;
+}
+
+#intro{
+    border : 1rem solid black;
+    margin : 0rem;
+    padding : 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+div.title{
+    font-size: 15rem;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+div.content{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+
+
+@media only screen and (max-device-width : 768px){
+    div.title{
+        font-size: 12rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    div.content{
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+    
+
+}
+
+
+
+
+@media only screen and (max-device-width : 414px){
+ 
+#intro{
+    border : 1rem solid black;
+    margin : 2rem 1rem;
+    padding : 0rem;
+    display: flex;
+    flex-direction: column;
+}
+ 
+ 
+    div.title{
+    font-size: 8rem;
+    text-align: center;
+    font-weight: bold;
+    }
+
+    div.content{
+        font-size: 1.1rem;
+        text-align: center;
+        
+    }
+
+
+}
+
