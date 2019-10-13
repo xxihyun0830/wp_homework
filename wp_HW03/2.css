@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+header.masthead{
+    background-color: rgb(135, 164, 189);
+    
+}
+a.nav-link{
+    color: brown;
+}
+

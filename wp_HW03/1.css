@@ -4,7 +4,7 @@ body{
 }
 
 #intro{
-    border : 1rem solid black;
+    border : 0.5rem solid black;
     margin : 0.1rem;
     padding : 2rem;
     display: flex;
@@ -12,13 +12,18 @@ body{
 }
 
 div.title{
-    font-size: 15rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: bold;
+    
+}
+
+img.MJ_logo{
+    width : 60%;
 }
 
 div.content{
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: center;
     
 }
@@ -26,7 +31,7 @@ div.content{
 
 @media only screen and (max-device-width : 768px){
     #intro{
-        border : 1rem solid black;
+        border : 0.5rem solid black;
         margin : 2rem 1rem;
         padding : 0.1rem;
         display: flex;
@@ -34,9 +39,13 @@ div.content{
     }
 
     div.title{
-        font-size: 12rem;
+        font-size: 5rem;
         text-align: center;
         font-weight: bold;
+    }
+
+    img.MJ_logo{
+        width : 60%;
     }
     
     div.content{
@@ -50,7 +59,7 @@ div.content{
 @media only screen and (max-device-width : 414px){
  
     #intro{
-        border : 1rem solid black;
+        border : 0.5rem solid black;
         margin : 2rem 1rem;
         padding : 0.1rem;
         display: flex;
@@ -58,9 +67,14 @@ div.content{
     }
  
     div.title{
-    font-size: 8rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: bold;
+    
+    }
+
+    img.MJ_logo{
+        width : 60%;
     }
 
     div.content{
