@@ -8,5 +8,12 @@ header.masthead{
 }
 a.nav-link{
     color: brown;
+    font-weight: bold;
 }
 
+.container{
+    margin : 0 auto;
+    float : none;
+    margin-bottom: 1rem;
+    
+}

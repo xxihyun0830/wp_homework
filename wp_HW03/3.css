@@ -11,3 +11,8 @@ div.cover-container{
     flex-direction: column;
 }
 
+.media-body{
+    border-bottom : 0.08rem dashed lightslategray;
+   
+}
+
