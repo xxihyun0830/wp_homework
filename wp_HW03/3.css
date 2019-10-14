@@ -1,8 +1,15 @@
 body{
     text-align: center;
-    background-color: rgb(159, 181, 182);
+    background-color: rgb(191, 215, 216);
+}
+footer{
+    background-color: rgb(112, 125, 139);
 }
 
+h3{
+    font-weight: bold;
+
+}
 div.cover-container{
     display: flex;
     width : 100%;
@@ -15,4 +22,5 @@ div.cover-container{
     border-bottom : 0.08rem dashed lightslategray;
    
 }
+
 

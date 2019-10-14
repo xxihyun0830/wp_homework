@@ -2,12 +2,16 @@ body{
     text-align: center;
 }
 
-header.masthead{
-    background-color: rgb(135, 164, 189);
+header{
+    background-color: rgb(191, 215, 216);
     
 }
+h3.masthead-brand{
+    font-weight: bold;
+
+}
 a.nav-link{
-    color: brown;
+    color: black;
     font-weight: bold;
 }
 
@@ -16,4 +20,8 @@ a.nav-link{
     float : none;
     margin-bottom: 1rem;
     
+}
+
+footer{
+    background-color: rgb(112, 125, 139);
 }
